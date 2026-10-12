@@ -1,0 +1,59 @@
+{
+  "verifiedAt": "2026-10-12T21:09:57.425Z",
+  "baseUrl": "https://flap-bnb-trade.apilabph.workers.dev",
+  "workerVersion": "22aaeedd-8d52-47d4-aa05-e86fdbd98ab1",
+  "checks": [
+    {
+      "path": "/",
+      "httpStatus": 200
+    },
+    {
+      "path": "/api/health",
+      "httpStatus": 200
+    },
+    {
+      "path": "/api/capabilities",
+      "httpStatus": 200
+    },
+    {
+      "path": "/api/deployment",
+      "httpStatus": 200
+    },
+    {
+      "path": "/openapi.json",
+      "httpStatus": 200
+    },
+    {
+      "path": "/robots.txt",
+      "httpStatus": 200
+    },
+    {
+      "path": "/sitemap.xml",
+      "httpStatus": 200
+    },
+    {
+      "path": "/api/trade",
+      "httpStatus": 503,
+      "code": "SETUP_REQUIRED"
+    },
+    {
+      "path": "/api/quote",
+      "httpStatus": 503,
+      "code": "SETUP_REQUIRED"
+    },
+    {
+      "path": "/api/approval",
+      "httpStatus": 503,
+      "code": "SETUP_REQUIRED"
+    },
+    {
+      "path": "/api/market",
+      "httpStatus": 200,
+      "token": "0x7ec234a01194133a7ae87656c2bcfa3b663f7777",
+      "stage": "pancake-v2",
+      "roundTripMs": 816
+    }
+  ],
+  "onChainSettlementDeployed": false,
+  "fundedLiveTrades": false
+}
