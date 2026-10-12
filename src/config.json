@@ -1,0 +1,16 @@
+{
+  "slug": "flap-bnb-buy-sell-api",
+  "name": "Flap BNB Buy and Sell API",
+  "host": "flap-bnb-trade",
+  "chainId": 56,
+  "native": "BNB",
+  "fee": "0x940BB768d8cD2fBa11f9fE7692dce4C0cdedFcc1",
+  "rpc": "https://bsc-dataseed.bnbchain.org",
+  "stages": [
+    "bonding-curve",
+    "pancake-v2",
+    "pancake-v3"
+  ],
+  "id": 9,
+  "version": "0.1.0-beta"
+}
