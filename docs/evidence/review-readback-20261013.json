@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-10-13T12:48:48.539Z",
+  "origin": "https://flap-bnb-trade.apilabph.workers.dev",
+  "scope": "Read-only HTTP checks and unsigned simulation only; public historical holder samples, no signing/broadcast/funds moved",
+  "rows": [
+    {
+      "label": "health",
+      "status": 200,
+      "milliseconds": 70,
+      "check": "passed"
+    },
+    {
+      "label": "capabilities",
+      "status": 200,
+      "milliseconds": 22,
+      "settlementConfigured": false,
+      "tradingStatus": "setup-required",
+      "feeCollectionActive": false,
+      "check": "passed"
+    },
+    {
+      "label": "updated OpenAPI",
+      "status": 200,
+      "milliseconds": 21,
+      "check": "passed"
+    },
+    {
+      "label": "invalid UTF-8 blocked",
+      "status": 400,
+      "milliseconds": 17,
+      "error": "INVALID_JSON",
+      "check": "passed"
+    },
+    {
+      "label": "unsupported encoding blocked",
+      "status": 415,
+      "milliseconds": 29,
+      "error": "CONTENT_TYPE",
+      "check": "passed"
+    },
+    {
+      "label": "settlement still required",
+      "status": 503,
+      "milliseconds": 28,
+      "error": "SETUP_REQUIRED",
+      "check": "passed"
+    }
+  ]
+}
