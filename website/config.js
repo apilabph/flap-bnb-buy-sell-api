@@ -6,10 +6,10 @@ export const config = {
   network: "BNB Smart Chain · 56",
   native: "BNB",
   evm: true,
-  accent: "#c8ee99",
+  accent: "#d0ff00",
   port: 8813,
   fee: "0x940BB768d8cD2fBa11f9fE7692dce4C0cdedFcc1",
-  hero: "Know the stage.<br>Inspect the trade.<br><span>Sign in your bot.</span>",
+  hero: "Buy and Sell Flap API",
   lead: "Inspect native-BNB Flap tokens and integrate a stage-aware transaction builder with exact approvals and a minimum net output.",
   status:
     "Market inspection is available. Quote, trade and approval endpoints need the operator’s settlement contract deployment. Funded trading and fee collection are not active.",
