@@ -1,0 +1,58 @@
+{
+  "reviewDate": "2026-10-14",
+  "checkedAt": "2026-10-13T16:38:48.800Z",
+  "repository": "https://github.com/apilabph/flap-bnb-buy-sell-api",
+  "baseCommit": "ab7732795c17d7eaa31b3a8902a607399ec25020",
+  "node": "v24.18.0",
+  "testCount": 34,
+  "results": [
+    {
+      "command": "npm run compile",
+      "exitCode": 0,
+      "durationMs": 17899,
+      "logSha256": "a25af5ec7771f10eb6603492ed9e8f38a37361049ce9736161710ddca68b676a"
+    },
+    {
+      "command": "git diff --exit-code -- artifacts/TradeSettlement.json",
+      "exitCode": 0,
+      "durationMs": 512,
+      "logSha256": "6c5b6fe68a28f3122a5eeda3dea0626dc1a8ac6465638004924fb67015679874"
+    },
+    {
+      "command": "npm test",
+      "exitCode": 0,
+      "durationMs": 23882,
+      "logSha256": "3183c787752c9300f13899b1cf27fc277d0ba05f132f94565b119460b321b024"
+    },
+    {
+      "command": "npm run check",
+      "exitCode": 0,
+      "durationMs": 3074,
+      "logSha256": "4441db44b66b0630e7d24e11ed89a33daa165ec90669b58bd8b4035cebc7c54d"
+    },
+    {
+      "command": "npm run build:check",
+      "exitCode": 0,
+      "durationMs": 4795,
+      "logSha256": "e37a746a8ac6212b61fbd9c1de977eb902ac17e3c76d9c0f229b677c14ec0507"
+    },
+    {
+      "command": "npm audit --audit-level=moderate",
+      "exitCode": 0,
+      "durationMs": 2837,
+      "logSha256": "6d8c5c8f3d7684adb070417bd608d01ae90aa3dc26a65af03ffda4955f38d9a3"
+    },
+    {
+      "command": "git diff --check",
+      "exitCode": 0,
+      "durationMs": 185,
+      "logSha256": "54bf868ba3baccda2a389021553cf3f547ef842633ee542884b69a39e6e9fce1"
+    }
+  ],
+  "scope": "Internal source review and offline regression/contract-fixture checks. No live chain request, wallet access, transaction signing/broadcast, funded trade or Worker deployment.",
+  "compatibility": "Send failures or invalid hashes throw SUBMISSION_UNKNOWN with submissionAttempted:true and retrySafe:false. No persistent cross-call deduplication.",
+  "customerRpcOnly": true,
+  "rapidApiChanged": false,
+  "contractBytecodeChanged": false,
+  "fundedTradingVerified": false
+}
