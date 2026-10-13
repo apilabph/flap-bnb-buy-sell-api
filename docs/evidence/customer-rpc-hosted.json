@@ -1,0 +1,69 @@
+{
+  "checkedAt": "2026-10-13T15:52:37.212Z",
+  "host": "https://flap-bnb-trade.apilabph.workers.dev",
+  "sourceCommit": "ebdb87106453954f46ade94653f201228dc26dfa",
+  "workerVersion": "c9a76948-43c9-4df2-8684-cad6cb686cd6",
+  "checks": [
+    {
+      "method": "GET",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/health",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/capabilities",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/openapi.json",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/quote",
+      "status": 410
+    },
+    {
+      "method": "POST",
+      "path": "/api/trade",
+      "status": 410
+    },
+    {
+      "method": "POST",
+      "path": "/api/trade/local",
+      "status": 410
+    },
+    {
+      "method": "POST",
+      "path": "/api/market",
+      "status": 410
+    },
+    {
+      "method": "POST",
+      "path": "/api/approval",
+      "status": 410
+    },
+    {
+      "method": "GET",
+      "path": "/api/deployment",
+      "status": 200
+    }
+  ],
+  "mode": "customer",
+  "htmlMatchesReviewedSource": true,
+  "serviceFeeBps": 25,
+  "fundedTrades": false,
+  "chainRequests": false,
+  "limitations": "Readback verifies documentation and retired endpoint behavior. Zero upstream requests is established separately by mocked transport tests and handler review, not measured provider billing. No funded execution is proven."
+}
